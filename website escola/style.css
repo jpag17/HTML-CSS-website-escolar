@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background: #060115;
+}
+
+.lista{
+    display: flex;
+}
+
+.lista ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.lista ul li{
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.lista ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.ativo a{
+    color: #9a3db9 !important;
+}
+.pesquisa{
+    margin: 50px 200px;
+}
+
+.pesquisa input{
+    width: 210px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-right: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.botao{
+    position: absolute;
+    padding: 7px 25px;
+    background: #9a3db9;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.logo img{
+    width: 120px;
+    margin-top: -50px;
+}
+
+.texto{
+    margin: 30px 80px;
+    max-width: 900px;
+    color: #fff;
+}
+
+.texto h1{
+    font-size: 45px;
+}
+.texto span{
+    color: #9a3db9;
+}
+.texto p{
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.botao2{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid #19dafa;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    background: linear-gradient(#19dafa,#9a3db9);
+    letter-spacing: 4px;
+}
+
+.botao2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.imagem{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    margin: 40px 150px;
+}
+
+.imagem img{
+    height: 300px;
+    width: 250px;
+}
